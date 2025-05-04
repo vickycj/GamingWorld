@@ -37,6 +37,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun launchPage(isPremiumUser: Boolean) {
+
         if(isPremiumUser) {
             launchPremiumUserPage()
         } else {
