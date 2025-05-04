@@ -63,6 +63,7 @@ class MainActivity : ComponentActivity() {
                 modifier = modifier
             )
             Button(onClick = {
+                // For now randomising, consider this being fetched from the API server
                 launchPage(Random.nextBoolean())
             }) {
                 Text(text = "Launch")
